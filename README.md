@@ -87,14 +87,14 @@ Explore the [Postman Collection](./postman_collection.json) for easy API testing
 
 ## Dependencies
 
-bcryptjs: Password hashing.
-cors: Cross-Origin Resource Sharing middleware.
-dotenv: Environment variable management.
-express: Web application framework.
-helmet: Security middleware.
-jsonwebtoken: JSON Web Token authentication.
-mongoose: MongoDB object modeling.
-morgan: HTTP request logger.
+1. bcryptjs: Password hashing.
+2. cors: Cross-Origin Resource Sharing middleware.
+3. dotenv: Environment variable management.
+4. express: Web application framework.
+5. helmet: Security middleware.
+6. jsonwebtoken: JSON Web Token authentication.
+7. mongoose: MongoDB object modeling.
+8. morgan: HTTP request logger.
 
 ## Environment Variables
 
