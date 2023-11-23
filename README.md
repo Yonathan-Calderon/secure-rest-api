@@ -85,6 +85,17 @@ Explore the [Postman Collection](./postman_collection.json) for easy API testing
 1. Run the development server: `npm run dev`
 2. Access the API at `http://localhost:4000/api`
 
+## Dependencies
+
+bcryptjs: Password hashing.
+cors: Cross-Origin Resource Sharing middleware.
+dotenv: Environment variable management.
+express: Web application framework.
+helmet: Security middleware.
+jsonwebtoken: JSON Web Token authentication.
+mongoose: MongoDB object modeling.
+morgan: HTTP request logger.
+
 ## Environment Variables
 
 Create a `.env` file based on the provided `.env.example` to set up your environment variables.
@@ -97,13 +108,3 @@ ADMIN_EMAIL=admin@localhost
 ADMIN_USERNAME=admin
 ADMIN_PASSWORD=admin
 
-## Dependencies
-
-bcryptjs: Password hashing.
-cors: Cross-Origin Resource Sharing middleware.
-dotenv: Environment variable management.
-express: Web application framework.
-helmet: Security middleware.
-jsonwebtoken: JSON Web Token authentication.
-mongoose: MongoDB object modeling.
-morgan: HTTP request logger.
