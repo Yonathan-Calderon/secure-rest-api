@@ -2,7 +2,7 @@
 
 A custom-built REST API for production with protected routes. This API allows you to manage products and users with role-based access.
 
-![Portfolio Image](https://github.com/Yonathan-Calderon/CalderonDev---/blob/main/public/screenRestApi.png)
+![Portfolio Image](https://github.com/Yonathan-Calderon/rest-api-front/blob/main/assets/img/api-description.PNG)
 
 ## Table of Contents
 
