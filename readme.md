@@ -1,6 +1,8 @@
-# Rest API Dev
+# Secure Rest API 
 
 A custom-built REST API for production with protected routes. This API allows you to manage products and users with role-based access.
+
+![Portfolio Image](https://github.com/Yonathan-Calderon/rest-api-front/blob/main/assets/img/api-description.PNG)
 
 ## Table of Contents
 
@@ -85,6 +87,17 @@ Explore the [Postman Collection](./postman_collection.json) for easy API testing
 1. Run the development server: `npm run dev`
 2. Access the API at `http://localhost:4000/api`
 
+## Dependencies
+
+1. bcryptjs: Password hashing.
+2. cors: Cross-Origin Resource Sharing middleware.
+3. dotenv: Environment variable management.
+4. express: Web application framework.
+5. helmet: Security middleware.
+6. jsonwebtoken: JSON Web Token authentication.
+7. mongoose: MongoDB object modeling.
+8. morgan: HTTP request logger.
+
 ## Environment Variables
 
 Create a `.env` file based on the provided `.env.example` to set up your environment variables.
@@ -97,13 +110,3 @@ ADMIN_EMAIL=admin@localhost
 ADMIN_USERNAME=admin
 ADMIN_PASSWORD=admin
 
-## Dependencies
-
-bcryptjs: Password hashing.
-cors: Cross-Origin Resource Sharing middleware.
-dotenv: Environment variable management.
-express: Web application framework.
-helmet: Security middleware.
-jsonwebtoken: JSON Web Token authentication.
-mongoose: MongoDB object modeling.
-morgan: HTTP request logger.
